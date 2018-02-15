@@ -7,7 +7,7 @@ gem 'rails', '4.1.6'
 gem 'sqlite3' , group: :development
 
 group :production do
-gem 'pg'
+gem 'pg', '~> 0.20'
 gem 'rails_12factor'
 end
 
