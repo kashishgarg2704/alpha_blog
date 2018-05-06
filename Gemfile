@@ -7,7 +7,7 @@ gem 'rails', '4.1.6'
 #gem 'sqlite3' , group: :development
 
 group :production do
-gem 'pg', '~> 0.20'
+#gem 'pg', '~> 0.20'
 gem 'rails_12factor'
 end
 
@@ -34,7 +34,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
-#gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -44,6 +44,6 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
- 
-
+gem 'sqlite3' 
+gem 'bcrypt', '~> 3.1.7'
 
