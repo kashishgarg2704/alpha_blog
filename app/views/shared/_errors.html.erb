@@ -1,4 +1,4 @@
-<% if obj.errors.any? %>
+
 
 <div class="row">
 
@@ -10,7 +10,6 @@
 
 <h2 class="panel-title">
 
-<%= pluralize(obj.errors.count, "error") %>
 
 prohibited this article from being saved:
 
@@ -20,11 +19,7 @@ prohibited this article from being saved:
 
 <ul>
 
-<% obj.errors.full_messages.each do |msg| %>
 
-<li><%= msg %></li>
-
-<% end %>
 
 </ul>
 
@@ -38,4 +33,3 @@ prohibited this article from being saved:
 
 </div>
 
-<% end %>
